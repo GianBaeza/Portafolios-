@@ -1,0 +1,121 @@
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+
+    
+
+}
+
+.container-custom-nav {
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100px;
+    
+    
+
+
+}
+
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 197, 68, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 100px;
+
+}
+
+
+
+#basic-navbar-nav {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+
+
+
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff00;
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+    filter: invert(1);
+
+}
+
+
+
+
+
+
+.container-nav {
+    background-color: #ffffff00;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.nav-link-custom {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+.navbar-custom.collapsing #basic-navbar-nav {
+    max-height: 500px;
+}
+
+.nav-link-custom {
+    background-color: rgba(0, 255, 255, 0);
+    width: 100px;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.nav-link-custom:hover {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.navbar-brand-custom {
+    color: white;
+}
+
+.navbar-brand-custom:hover {
+    color: aquamarine;
+}
+
+
+.navbar-custom {}
+
+.navbar-brand-custom {
+    font-family: "NombreDeTuFuenteDelicada", sans-serif;
+
+}

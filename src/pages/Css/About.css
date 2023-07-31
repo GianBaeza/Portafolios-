@@ -1,0 +1,115 @@
+.sectionAbout {
+    display: flex;
+    height: 100vh;
+    padding-top: 120px;
+    margin: auto;
+    width: 100%;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+
+
+}
+
+
+.containerImg {
+    background-color: rgba(11, 224, 57, 0);
+    height: 700px;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.imgAbout {
+    background-color: antiquewhite;
+    height: 500px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 60px;
+    animation: moveAnimation 4s infinite alternate;
+    border-radius: 49px;
+    background: linear-gradient(145deg, #7f90bb, #000000af);
+    box-shadow: 34px 34px 68px #2e2e31,
+        -34px -34px 68px #60a1ff;
+    /* Agregar la animación */
+}
+
+
+.aboutDescription {
+    background-color: rgba(165, 42, 42, 0);
+    width: 50%;
+    height: 600px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #2d1e7200;
+    width: 450px;
+    height: 470px;
+    margin-right: 40px;
+
+
+}
+
+.h1About {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 1000px;
+    color: rgb(255, 255, 255);
+
+
+
+
+}
+
+.p {
+    background-color: rgba(26, 135, 231, 0);
+    width: 500px;
+    margin-bottom: 120px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding-right: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.redesContainer {
+    background-color: rgba(0, 255, 255, 0);
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 109px;
+
+}
+
+.redes {
+    padding-right: 50px;
+    cursor: pointer;
+
+
+
+}
+
+.redesContainer img {
+    filter: blur(1px);
+    /* Aplicar un poco de desenfoque */
+    transition: filter 0.1s ease-in-out;
+    /* Transición suave al cambiar el filtro */
+}
+
+.redesContainer img:hover {
+    filter: blur(0);
+    /* Quitar el desenfoque al pasar el cursor */
+    opacity: 1.9;
+    /* Aumentar un poco la opacidad */
+    transform: scale(1.2);
+    transition: 0.5s;
+    /* Hacer un poco más grande la imagen */
+}
