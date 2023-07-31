@@ -4,7 +4,7 @@
     padding-top: 120px;
     margin: auto;
     width: 100%;
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient(to top, #fefeff 0%, #6899E3 1%, #94acd4 100%);
 
 
 }
@@ -21,7 +21,7 @@
     background-color: antiquewhite;
     height: 500px;
     float: left;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 60px;
     animation: moveAnimation 4s infinite alternate;
     border-radius: 49px;
@@ -67,7 +67,6 @@
 .p {
     background-color: rgba(26, 135, 231, 0);
     width: 500px;
-    margin-bottom: 120px;
     font-family: sans-serif;
     margin-top: 30px;
     padding-right: 20px;
@@ -76,6 +75,7 @@
     font-size: 24px;
     padding: 20px;
     border: 1px solid #ccc;
+    
 }
 
 .redesContainer {
