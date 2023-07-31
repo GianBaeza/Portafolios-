@@ -1,5 +1,5 @@
 import React from "react";
-import iconsAbout from "../components/img/About/html-system-websites-concept(1).jpg";
+import iconsAbout from "../components/img/About/compu.jpg";
 import "./Css/About.css";
 import Linkedin from "../components/img/About/icons8-linkedin.png";
 import Github from "../components/img/About/icons8-github.png";
