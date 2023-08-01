@@ -11,8 +11,13 @@ import X from "../components/img/About/icons8-twitter.png";
 
 const About = () => {
 
-   
-    
+
+
+
+
+
+
+
     return (
         <div className="containerAbout" id="about">
             <section className="sectionAbout">
@@ -45,8 +50,12 @@ const About = () => {
                         <a href="https://twitter.com/Gianbaeza" Target="_blank"> <img src={X} alt="Twitter" className="redes" /> </a>
                     </div>
 
+
                 </section>
+
             </section>
+           
+
         </div>
     )
 }

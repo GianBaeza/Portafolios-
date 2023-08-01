@@ -3,9 +3,12 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import './NavBar.css';
 import  logo from '../Navbar/img/gb.png'
 import { Link } from 'react-scroll';
+import { useState,useEffect } from 'react';
 
 
 const NavBar = () => {
+    
+
     return (
         <Navbar expand="md" className="navbar-custom ">
             <Container className='container-custom-nav'>

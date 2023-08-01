@@ -1,8 +1,19 @@
-.ContainerSkills {
-    background-color: #f7f7f7;
-    padding: 20px;
+.ContainerTotal{
+    background-color: #000000;
+    display: flex;
     height: 100vh;
+    padding-top: 160px;
+    
+    
+
+}
+
+.ContainerSkills {
+    background-color: #f3161600;
+    padding: 20px;
+    height: 90vh;
     width: 100%;
+
     
 }
 
@@ -15,13 +26,12 @@
 
 .h1Skills {
     font-size: 24px;
-    color: #333;
+    color: #fff4f4;
     font-weight: bold;
 }
 
 .ContainerCard{
-    background-color: #333;
-    width: 100%;
+    background-color: #d8000000;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -40,7 +50,6 @@
 
 /* Estilos de la imagen */
 .card-img-top {
-    width: 100%;
     height: auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -58,3 +67,4 @@
     color: #444;
     margin-bottom: 10px;
 }
+

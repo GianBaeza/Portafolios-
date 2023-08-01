@@ -1,8 +1,8 @@
 .navbar-custom {
-    background-color: rgba(0, 0, 0, 0);
-    width: 100%;
+    background-color: rgba(243, 3, 3, 0);
     height: 100px;
     display: flex;
+    width: 100%;
     position: fixed;
 
     
@@ -11,8 +11,7 @@
 
 .container-custom-nav {
     gap: 60px;
-    background-color: rgba(0, 0, 0, 0);
-    width: 100%;
+    background-color: rgba(228, 218, 218, 0);
     height: 100px;
     
     
@@ -27,32 +26,20 @@
     align-items: center;
     background-color: rgba(13, 197, 68, 0);
     height: 100px;
-    width: 100px;
     border-radius: 100px;
 }
 
 .img {
-    width: 200px;
     height: 200px;
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(4, 240, 240, 0);
     border-radius: 100px;
 
 }
 
 
 
-#basic-navbar-nav {
-    background-color: rgba(0, 0, 0, 0);
-    color: black;
-    border-radius: 20px;
-    padding: 20px;
-
-
-
-}
-
 .navbar-toggler-icon {
-    background-color: #ffffff00;
+    background-color: #f0000000;
     height: 35px;
     width: 35px;
     color: #ffffff;
@@ -62,33 +49,13 @@
 
 
 
-
-
-
-.container-nav {
-    background-color: #ffffff00;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-
-
-}
-
 .nav-link-custom {
     font-family: 'Nunito', sans-serif;
     color: rgba(255, 255, 255, 0.63);
     cursor: pointer;
 
-
 }
 
-
-
-
-
-.navbar-custom.collapsing #basic-navbar-nav {
-    max-height: 500px;
-}
 
 .nav-link-custom {
     background-color: rgba(0, 255, 255, 0);
@@ -112,8 +79,6 @@
     color: aquamarine;
 }
 
-
-.navbar-custom {}
 
 .navbar-brand-custom {
     font-family: "NombreDeTuFuenteDelicada", sans-serif;

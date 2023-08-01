@@ -1,10 +1,14 @@
+.containerAbout{
+    background-color: #00000000;
+    height:  910px;
+    width: 100%;
+    background-image: linear-gradient(to top, #030303 0%, #6899E3 1%, #94acd4 100%);
+}
+
 .sectionAbout {
     display: flex;
-    height: 100vh;
     padding-top: 180px;
     margin: auto;
-    width: 100%;
-    background-image: linear-gradient(to top, #fefeff 0%, #6899E3 1%, #94acd4 100%);
     
 
 }
@@ -30,24 +34,26 @@
         -34px -34px 68px #60a1ff;
     transform: translateX(0px);
     animation: float 6s ease-out infinite;
-    
+
 }
+
 @keyframes float {
-   0%{
-    transform: translateY(0px);
-   }
-   50%{
-    transform: translateY(-60px);
-   }
-   100%{
-    transform: translateY(0px);
-   }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 
 .aboutDescription {
     background-color: rgba(165, 42, 42, 0);
-    width: 50%;
     height: 600px;
     padding-left: 60px;
     display: flex;
@@ -56,9 +62,9 @@
 
 .content {
     background-color: #2d1e7200;
-    width: 450px;
+    width: 500px;
     height: 470px;
-    margin-right: 40px;
+    
 
 
 }
@@ -88,7 +94,7 @@
     font-size: 24px;
     padding: 20px;
     border: 1px solid #ccc;
-    
+
 }
 
 .redesContainer {
@@ -126,3 +132,4 @@
     transition: 0.5s;
     /* Hacer un poco más grande la imagen */
 }
+
