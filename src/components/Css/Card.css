@@ -1,34 +1,4 @@
-.ContainerSkills {
-    background-color: #f7f7f7;
-    padding: 20px;
-    height: 100vh;
-    width: 100%;
-    
-}
-
-
-.HeaderSkills {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-.h1Skills {
-    font-size: 24px;
-    color: #333;
-    font-weight: bold;
-}
-
-.ContainerCard{
-    background-color: #333;
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    gap: 20px;
-    
-}
+/* Estilos generales de la card */
 .card {
     width: 300px;
     border: 1px solid #ccc;
@@ -55,6 +25,6 @@
 /* Estilos del contenido */
 .card-text {
     font-size: 16px;
-    color: #444;
+    color: #000000;
     margin-bottom: 10px;
 }

@@ -4,6 +4,7 @@ import './NavBar.css';
 import  logo from '../Navbar/img/gb.png'
 import { Link } from 'react-scroll';
 
+
 const NavBar = () => {
     return (
         <Navbar expand="md" className="navbar-custom ">

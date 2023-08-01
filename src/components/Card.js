@@ -2,25 +2,31 @@ import React from "react";
 
 
 
+
+
+
 function Card({ img, Titulo, description }) {
     return (
+
         <div>
 
-            <article>
-                <div>
-                    <img src={img} />
-                </div>
+            <div class="card">
+                <img class="card-img-top" src={img} alt="Card image cap"/>
+                    <div class="card-body">
+                        <h3> {Titulo} </h3>
+                        <p class="card-text">{description}</p>
+                    </div>
+                    <div>
 
-                <div>
-                    <h2>{Titulo}</h2>
+                     <button>View work</button>
 
-                    <p>{description}</p>
-                </div>
-
-            </article>
-
+                    </div>
+                    
+            </div>
 
         </div>
+
+
 
 
     )
