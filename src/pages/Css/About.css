@@ -1,11 +1,11 @@
 .sectionAbout {
     display: flex;
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 180px;
     margin: auto;
     width: 100%;
     background-image: linear-gradient(to top, #fefeff 0%, #6899E3 1%, #94acd4 100%);
-
+    
 
 }
 
@@ -28,7 +28,20 @@
     background: linear-gradient(145deg, #7f90bb, #000000af);
     box-shadow: 34px 34px 68px #2e2e31,
         -34px -34px 68px #60a1ff;
-    /* Agregar la animación */
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    
+}
+@keyframes float {
+   0%{
+    transform: translateY(0px);
+   }
+   50%{
+    transform: translateY(-60px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
 }
 
 

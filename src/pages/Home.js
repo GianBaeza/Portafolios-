@@ -37,8 +37,6 @@ const Home = () => {
 
                     </div>
 
-
-
                 </picture>
                 <footer className="svgI">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 0 1420 215" className="svgI">
