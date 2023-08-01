@@ -7,17 +7,19 @@ import X from "../components/img/About/icons8-twitter.png";
 
 
 
+
+
 const About = () => {
 
-
+   
     
     return (
         <div className="containerAbout" id="about">
             <section className="sectionAbout">
 
-                <picture className="containerImg">
+                <picture className="containerImg nimate-fade-right">
 
-                    <img src={iconsAbout} alt="Aboutimg" className="imgAbout" />
+                    <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
 
                 </picture>
 

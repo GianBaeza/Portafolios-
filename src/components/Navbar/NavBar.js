@@ -16,18 +16,20 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav " className='nav-toggler-custom' />
                 <Navbar.Collapse id="basic-navbar-nav" className="nav-Collapse-custom">
                     <Nav className="mx-auto">
+                        
                         <Link className="nav-link-custom" to="/" spy={true} smooth={true} offset={50} duration={500}>
                             Home
                         </Link>
                         <Link className="nav-link-custom" to="about" spy={true} smooth={true} offset={50} duration={500}>
                             About
                         </Link>
-                        <Link className="nav-link-custom" to="contact" spy={true} smooth={true} offset={50} duration={500}>
-                            Contact
-                        </Link>
                         <Link className="nav-link-custom" to="skills" spy={true} smooth={true} offset={50} duration={500}>
                             Skills
                         </Link>
+                        <Link className="nav-link-custom" to="contact" spy={true} smooth={true} offset={50} duration={500}>
+                            Contact
+                        </Link>
+                        
                     </Nav>
                 </Navbar.Collapse>
             </Container>
