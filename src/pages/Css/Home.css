@@ -160,9 +160,11 @@
     padding-left: 19%;
     border-radius: 90px;
     border-left-width: 100px;
-
+   border: none;
 
 }
+
+
 .svgI{
     width: 100%;
     position: absolute;
