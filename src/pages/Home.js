@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../components/img/Home/yo.jpeg";
+import Img from "../components/img/Home/yo-depositphotos-bgremover(1).png";
 import "./Css/Home.css";
 import About from "./About";
 
@@ -11,7 +11,7 @@ const Home = () => {
         const curriculumUrl = 'https://drive.google.com/file/d/1AWGGmAqYuCZ1wcpntBD3v27FOaP6Up6l/view?usp=sharing';
         window.open(curriculumUrl, '_blank');
     }
-    
+
 
 
 
@@ -30,9 +30,9 @@ const Home = () => {
                 </div>
                 <spam className="white-line" />
 
-                <picture className="container-pictureHome">
+                <picture className="container-pictureHome" >
                     <div className="divimg">
-                        <img src={Img} alt="ImgPricipal" className="imageHome" />
+                        <img src={Img} alt="ImgPricipal" className="imageHome"  />
 
 
                     </div>

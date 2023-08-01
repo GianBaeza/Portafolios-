@@ -8,6 +8,9 @@ import X from "../components/img/About/icons8-twitter.png";
 
 
 const About = () => {
+
+
+    
     return (
         <div className="containerAbout" id="about">
             <section className="sectionAbout">

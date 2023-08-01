@@ -5,7 +5,7 @@
 
 
 .cotainerHome {
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     width: 100%;
     padding-top: 170px;
     height: 910px;
@@ -145,6 +145,8 @@
     width: 50%;
     height: 700px;
     display: flex;
+    position: relative;
+    bottom: 90px;
 }
 
 .divimg {
@@ -156,12 +158,13 @@
 }
 
 .imageHome {
-    height: 700px;
+    height: 800px;
     padding-left: 19%;
     border-radius: 90px;
-    border-left-width: 100px;
-   border: none;
-
+    border-top-left-radius: 10px;
+   
+  
+   
 }
 
 
@@ -170,8 +173,6 @@
     position: absolute;
     left: 0;
     bottom:0;
-    
-
 
 
 }
