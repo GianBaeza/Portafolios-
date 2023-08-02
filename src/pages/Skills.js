@@ -11,6 +11,7 @@ import react from "../components/img/Skills/React.png"
 import Boostrap from "../components/img/Skills/Bootrap.png"
 import Firebase from "../components/img/Skills/Firebase.png"
 import Figma from "../components/img/Skills/Figma.png"
+import Social from "../components/Social";
 
 
 
@@ -21,22 +22,38 @@ const Skills = () => {
     return (
         <div id="skills" className="ContainerTotal">
 
+
+
             <section className="ContainerSkills">
-                <header className="HeaderSkills">
+
+                <h1 className="h1Skills"> Skills</h1>
+
+                <div className="SeccionCard">
+
+                    <div className="ContainerCard ">
+
+                        <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
+                        <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
+                        <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
+                        <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
+                        <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
 
 
-                 <h1 className="h1Skills"> Skills</h1>
+                    </div>
 
-                </header>
-                <div className="ContainerCard">
+                    <h2 className="h2Lenguaje"> Lenguajes </h2>
 
-                    <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
-                    <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
-                    <Card titulo="AppGB" description=" Eccomerce para Logitech " img={img} />
+                    <div className="containerLenguajes">
+
+                        <Social/>
+
+                    </div>
+
 
 
                 </div>
-                
+
+
 
             </section>
 

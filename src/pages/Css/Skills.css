@@ -3,47 +3,53 @@
     margin: 0;
 }
 
-.ContainerTotal{
-    background-color: #000000;
+.ContainerTotal {
+    background-color: #f00e0e;
     display: flex;
     height: 100vh;
-    padding-top: 160px;
-    
-    
+    margin: auto;
 
 }
+
 
 .ContainerSkills {
-    background-color: #f3161600;
-    padding: 20px;
-    height: 90vh;
+    background-color: #13d142;
+    margin: auto;
+    margin-bottom: 10px;
     width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    
+
+
 }
-
-
-.HeaderSkills {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 
 .h1Skills {
-    font-size: 24px;
-    color: #fff4f4;
-    font-weight: bold;
+    background-color: #02000000;
+    width: 200px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 40px;
+
+
+
 }
 
-.ContainerCard{
-    background-color: #d8000000;
-    height: 80vh;
+
+
+.ContainerCard {
+    background-color: #2000d800;
+    height: 50vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 40px;
     gap: 20px;
-    
+
 }
+
 .card {
     width: 300px;
     border: 1px solid #ccc;
@@ -73,3 +79,50 @@
     margin-bottom: 10px;
 }
 
+.ContainerTecnologias {
+    background-color: #ccc;
+    height: 70px;
+
+}
+
+.Tecnologia {
+    height: 50px;
+}
+
+.h2Lenguaje {
+    background-color: #13d14300;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.containerLenguajes {
+    gap: 20px;
+    padding-top: 20px;
+
+
+}
+
+
+.Tecnologia {
+    height: 90px;
+    border: none;
+    padding-top: 5px auto;
+
+}
+
+.hrefClasname img:hover {
+    animation: bounce 0.5s;
+  }
+  
+  @keyframes bounce {
+    0%, 5%, 10%, 80%{
+      transform: translateY(0);
+    }
+    40%{
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
