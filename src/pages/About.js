@@ -22,11 +22,8 @@ const About = () => {
         <div className="containerAbout" id="about">
             <section className="sectionAbout">
 
-                
 
                 <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
-
-                
 
 
                 <section className="aboutDescription">
