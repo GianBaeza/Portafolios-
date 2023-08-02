@@ -22,12 +22,11 @@ const About = () => {
         <div className="containerAbout" id="about">
             <section className="sectionAbout">
 
-                <picture className="containerImg nimate-fade-right">
+                
 
-                    <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
+                <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
 
-                </picture>
-
+                
 
 
                 <section className="aboutDescription">

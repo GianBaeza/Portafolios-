@@ -6,11 +6,14 @@ import { Link } from 'react-scroll';
 import { useState,useEffect } from 'react';
 
 
+
+
+
 const NavBar = () => {
     
 
     return (
-        <Navbar expand="md" className="navbar-custom ">
+        <Navbar expand="lg" className=" navbar-custom " fixed="top" >
             <Container className='container-custom-nav'>
                 <picture className='imgContainer'>
 
