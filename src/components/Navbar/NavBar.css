@@ -24,16 +24,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(13, 197, 68, 0);
+    background-color: rgba(9, 206, 68, 0);
     height: 100px;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .img {
-    height: 200px;
-    background-color: rgba(4, 240, 240, 0);
-    border-radius: 100px;
-
+    background-color: rgba(28, 179, 179, 0);
+    max-height: 100%; /* La imagen no será más alta que el contenedor */
+    max-width: 100%;
+    filter: opacity(0.80);
 }
 
 
