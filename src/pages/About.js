@@ -20,13 +20,14 @@ const About = () => {
 
     return (
         <div className="containerAbout" id="about">
+
+            <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
+
+
             <section className="sectionAbout">
 
 
-                <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
-
-
-                <section className="aboutDescription">
+                <div className="aboutDescription">
 
                     <div className="content">
                         <h1 className="h1About">About.</h1>
@@ -47,7 +48,7 @@ const About = () => {
                     </div>
 
 
-                </section>
+                </div>
 
             </section>
            
