@@ -1,86 +1,52 @@
+/* Estilo para el Navbar */
 .navbar-custom {
-    background-color: rgba(243, 3, 3, 0);
+    background-color: rgba(255, 0, 0, 0);
+    color: #ffffff;
+    cursor: pointer;
     height: 100px;
-    display: flex;
-    width: 100%;
     position: fixed;
-
-    
-
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.container-custom-nav {
-    gap: 60px;
-    background-color: rgba(228, 218, 218, 0);
-    height: 100px;
-    
-    
-
-
-}
-
-
+/* Estilo para el Logo */
 .imgContainer {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(9, 206, 68, 0);
-    height: 100px;
-    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .img {
-    background-color: rgba(28, 179, 179, 0);
-    max-height: 100%; /* La imagen no será más alta que el contenedor */
-    max-width: 100%;
-    filter: opacity(0.80);
-}
-
-
-
-.navbar-toggler-icon {
-    background-color: #f0000000;
-    height: 35px;
-    width: 35px;
-    color: #ffffff;
-    filter: invert(1);
-
-}
-
-
-
-.nav-link-custom {
-    font-family: 'Nunito', sans-serif;
-    color: rgba(255, 255, 255, 0.63);
-    cursor: pointer;
-
-}
-
-
-.nav-link-custom {
-    background-color: rgba(0, 255, 255, 0);
     width: 100px;
-    padding: 7px;
-    text-decoration: none;
-    font-size: 20px;
-
+    height: auto;
 }
+
+/* Estilo para los enlaces del Navbar */
+.nav-link-custom {
+    color: #ffffffce;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
 
 .nav-link-custom:hover {
-    color: #ffffff;
-    transition: 1s;
+    color: #383434;
 }
 
-.navbar-brand-custom {
-    color: white;
+/* Estilo para el contenedor de los enlaces */
+.container-custom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.navbar-brand-custom:hover {
-    color: aquamarine;
-}
-
-
-.navbar-brand-custom {
-    font-family: "NombreDeTuFuenteDelicada", sans-serif;
-
+/* Estilo para centrar verticalmente los enlaces */
+.nav-Collapse-custom {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items:center;
+    border-radius: 10px;
 }

@@ -4,23 +4,13 @@
 }
 
 
-.cotainerHome {
-    background-color: #000000;
-    padding-top: 160px;
-    height: 910px;
-    width: 100%;
 
-    
-
-
-
-}
 
 .sectionHome {
-    background-color: #035f8600;
+    padding-top: 160px;
+    background-color: #000000;
     display: flex;
-    padding-top: 20px;
-    margin-top: 20px;
+    height: 95vh;
 
 }
 
