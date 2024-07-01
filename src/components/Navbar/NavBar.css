@@ -1,51 +1,52 @@
 /* Estilo para el Navbar */
 .navbar-custom {
-    background-color: rgba(255, 0, 0, 0);
-    color: #ffffff;
-    cursor: pointer;
-    height: 100px;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  position: relative;
 }
 
 /* Estilo para el Logo */
 .imgContainer {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img {
-    width: 100px;
-    height: auto;
+  width: 200px;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Estilo para los enlaces del Navbar */
 .nav-link-custom {
-    color: #ffffffce;
-    text-decoration: none;
-    padding: 8px 12px;
-    transition: color 0.3s ease;
-    font-size: 20px;
+  color: #000000d7;
+  text-decoration: none;
+  padding: 30px;
+  transition: color 0.3s ease;
+  font-size: 20px;
 }
 
-
 .nav-link-custom:hover {
-    color: #383434;
+  color: #383434;
 }
 
 /* Estilo para el contenedor de los enlaces */
 .container-custom-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* Estilo para centrar verticalmente los enlaces */
 .nav-Collapse-custom {
-    background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    align-items:center;
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
 }

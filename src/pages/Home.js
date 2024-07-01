@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../components/img/Home/yo-depositphotos-bgremover(1).png";
+import imagen from "../components/img/Home/yo-depositphotos-bgremover(1).png";
 import "./Css/Home.css";
 
 const Home = () => {
@@ -11,23 +11,20 @@ const Home = () => {
 
   return (
     <div id="/">
-      <section className="sectionHome">
-        <div className="divHome">
-          <h1 className="h1Home">Gian Franco Baeza</h1>
-          <h3 className="h3Home">Front End Developer </h3>
-
-          <button className="CvHome" onClick={handleOpenPdf}>
-            {" "}
-            Open CV{" "}
-          </button>
+      <section className="home-section">
+        <div className="home-container">
+          <h1>Gian Franco Baeza</h1>
+          <h3>Front End Developer</h3>
+          <button onClick={handleOpenPdf}>Open CV</button>
         </div>
-        <spam className="white-line" />
+        <hr />
 
-        <picture className="container-pictureHome">
-          <img src={Img} alt="ImgPricipal" className="imageHome" />
+        <picture className="home-picture-container">
+          <img src={imagen} alt="MainImage" />
         </picture>
       </section>
     </div>
   );
 };
+
 export default Home;
