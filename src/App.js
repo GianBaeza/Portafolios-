@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Proyectos from "./pages/Proyectos";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <Home />
       <About />
+      <Proyectos />
     </div>
   );
 }

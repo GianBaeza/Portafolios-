@@ -7,14 +7,16 @@
   background-color: #ffffff;
   display: flex;
   height: 90vh;
-  width: 100%;
   justify-content: center;
   padding-top: 40px;
+  background-image: url(../../components/img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
 .home-container {
-  background-color: rgb(255, 255, 255);
-  background-image: url(../../components/img/Home/background.png);
+  background-color: rgba(126, 12, 12, 0);
   width: 50%;
   height: auto;
   display: flex;
@@ -77,19 +79,18 @@
   border-top-left-radius: 20%;
   width: 50%;
   overflow: hidden;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-section img {
+  object-fit: contain;
   width: 100%;
-  max-width: 75%;
-  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
-  object-fit: cover;
-  background-color: #dedbcf00;
-  position: relative;
-  top: -70px;
-  left: 40px;
-  z-index: 1;
+  height: 100%;
 }
+
 
 @media only screen and (max-width: 768px) {
 }
