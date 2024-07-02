@@ -1,60 +1,35 @@
 import React from "react";
-import iconsAbout from "../components/img/About/compu.jpg";
+import imagenAbout from "../components/img/Home/sobremi.jpg";
 import "./Css/About.css";
-import Linkedin from "../components/img/About/icons8-linkedin.png";
-import Github from "../components/img/About/icons8-github.png";
-import X from "../components/img/About/icons8-twitter.png";
-
-
-
-
 
 const About = () => {
+  return (
+    <div
+      className="about-container custom-shape-divider-top-1719931178"
+      id="about"
+    >
+      <img src={imagenAbout} alt="Aboutimg" className="about-img" />
 
+      <section className="about-section">
+        <h1 className="about-title">
+           ABO<b>UT</b>
+        </h1>
 
-
-
-
-
-
-
-    return (
-        <div className="containerAbout" id="about">
-
-            <img src={iconsAbout} alt="Aboutimg" className="imgAbout  " />
-
-
-            <section className="sectionAbout">
-
-
-                <div className="aboutDescription">
-
-                    <div className="content">
-                        <h1 className="h1About">About.</h1>
-
-                        <p className="p">I consider myself a responsible, hard-working and punctual person, with an excellent ability to work in a team and decisive in problems that arise. Easy to follow instructions and generate
-                            quality results and above all a desire to continue learning.
-                        </p>
-
-                    </div>
-
-
-
-                    <div className="redesContainer">
-
-                        <a href="https://www.linkedin.com/in/gianbaeza/" Target="_blank"> <img src={Linkedin} alt="Linkedin" className="redes" /> </a>
-                        <a href="https://github.com/Chi4n" Target="_blank"> <img src={Github} alt="GitHub" className="redes" /> </a>
-                        <a href="https://twitter.com/Gianbaeza" Target="_blank"> <img src={X} alt="Twitter" className="redes" /> </a>
-                    </div>
-
-
-                </div>
-
-            </section>
-           
-
-        </div>
-    )
-}
+        <p className="about-text">
+          <b>Hola mucho gusto</b> Me entusiasma el aprendizaje y el desarrollo
+          personal. Mi profundo interés por la programación me impulsa
+          constantemente a crecer y explorar nuevas tecnologías.{" "}
+          <b>
+            Me destaco por mi habilidad para trabajar en equipo , siendo
+            responsable y comprometido en cada proyecto
+          </b>
+          . Creo firmemente que el intercambio de ideas y la cooperación son
+          fundamentales para el éxito, y siempre estoy dispuesto a aportar y
+          aprender de mis colegas. Soy un profesional <b>comprometido</b>.
+        </p>
+      </section>
+    </div>
+  );
+};
 
 export default About;

@@ -6,9 +6,10 @@
 .home-section {
   background-color: #ffffff;
   display: flex;
-  height: auto;
+  height: 90vh;
   width: 100%;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .home-container {
@@ -27,10 +28,12 @@
 .home-container h1 {
   font-size: 70px;
   background-color: #0bc00500;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .home-container h3 {
   font-family: sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 /* .home-container button {
@@ -59,8 +62,9 @@
 }
 
 .home-container button:hover {
-  color: rgba(0, 0, 0, 0.788);
-  box-shadow: inset 0 -100px 0 0 #dedbcf;
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0 -100px 0 0 #212529;
+  border: non;
 }
 
 .home-container button:active {
@@ -77,13 +81,13 @@
 
 .home-section img {
   width: 100%;
-  max-width: 75%; 
+  max-width: 75%;
   mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
   object-fit: cover;
   background-color: #dedbcf00;
   position: relative;
-  top: -70px; 
-  left: 40px; 
+  top: -70px;
+  left: 40px;
   z-index: 1;
 }
 
