@@ -61,8 +61,6 @@
 .home-container button:hover {
   color: rgba(0, 0, 0, 0.788);
   box-shadow: inset 0 -100px 0 0 #dedbcf;
-  
-  
 }
 
 .home-container button:active {
@@ -71,18 +69,22 @@
 
 /* Image Container */
 .home-picture-container {
-  background-color: #000000;
+  background-color: #050505;
   border-top-left-radius: 20%;
   width: 50%;
   overflow: hidden;
 }
 
 .home-section img {
-  width: 70%;
-  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-  flex-wrap: wrap;
+  width: 100%;
+  max-width: 75%; 
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
   object-fit: cover;
-  align-items: end;
+  background-color: #dedbcf00;
+  position: relative;
+  top: -70px; 
+  left: 40px; 
+  z-index: 1;
 }
 
 @media only screen and (max-width: 768px) {
