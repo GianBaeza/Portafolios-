@@ -7,6 +7,16 @@
   text-align: center;
 }
 
-header {
- 
+h1,
+h2 {
+  font-family: "Bodoni Moda SC", serif;
+}
+
+p,
+li,
+a {
+  font-family: "Bodoni Moda SC", serif;
+}
+button {
+  font-family: "Bodoni Moda SC", serif;
 }

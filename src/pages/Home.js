@@ -1,5 +1,5 @@
 import React from "react";
-import imagen from "../components/img/Home/yo-depositphotos-bgremover(1).png";
+import imagen from "../components/img/Home/Diseño sin título (1) (1).png";
 import "./Css/Home.css";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <section className="home-section">
         <div className="home-container">
           <h1>Gian Franco Baeza</h1>
-          <h3>Front End Developer</h3>
+          <h2>Front End Developer</h2>
           <button onClick={handleOpenPdf}>Open CV</button>
         </div>
         <hr />
