@@ -1,32 +1,29 @@
 .navbar-custom {
-  background-color: rgb(255, 255, 255);
+  background-color: #b10f0f00;
   cursor: pointer;
-  height: 100px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
   position: relative;
+  padding: 30px;
 }
 
-.imgContainer {
+.nav {
+  background-color: #b8050500;
+  width: 100%;
   display: flex;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-}
-
-.img {
-  width: 200px;
-  height: auto;
-  object-fit: cover;
+  text-align: center;
 }
 
 .nav-link-custom {
   color: #000000d7;
   text-decoration: none;
-  padding: 30px;
   transition: color 0.3s ease;
   font-size: 20px;
+  background-color: #04748800;
 }
 
 .nav-link-custom:hover {
