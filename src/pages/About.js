@@ -1,5 +1,4 @@
 import React from "react";
-import imagenAbout from "../components/img/Home/sobremi.jpg";
 import "./Css/About.css";
 
 const About = () => {
