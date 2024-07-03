@@ -1,0 +1,74 @@
+/* Card.css */
+.card {
+  max-width: 350px;
+  max-height: 550px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  filter: brightness(90%);
+}
+
+.card-body {
+  padding: 15px;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-body h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-tegnologia {
+  color: #fa5f34;
+}
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card li {
+  margin: 0 10px;
+  color: #ddd;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s;
+  padding: 25px;
+}
+.icon {
+  font-size: 25px;
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  color: #43525e;
+}

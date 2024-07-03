@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <Navbar
       expand="lg"
-      className={`navbar-custom ${isNavExpanded ? 'open' : ''}`}
+      className={`navbar-custom ${isNavExpanded ? "open" : ""}`}
       fixed="top"
       expanded={isNavExpanded}
     >
@@ -34,7 +34,7 @@ const NavBar = () => {
               duration={500}
               onClick={handleNavClick}
             >
-              Home
+              Inicio
             </Link>
             <Link
               className="nav-link-custom"
@@ -45,18 +45,18 @@ const NavBar = () => {
               duration={500}
               onClick={handleNavClick}
             >
-              About
+              Sobre mi
             </Link>
             <Link
               className="nav-link-custom"
-              to="skills"
+              to="proyecto"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               onClick={handleNavClick}
             >
-              Skills
+              Proyectos
             </Link>
             <Link
               className="nav-link-custom"
@@ -67,7 +67,7 @@ const NavBar = () => {
               duration={500}
               onClick={handleNavClick}
             >
-              Contact
+              Contacto
             </Link>
           </Nav>
           {/* Botón de cerrar */}

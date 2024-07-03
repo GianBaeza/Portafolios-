@@ -8,11 +8,9 @@ const About = () => {
       className="about-container custom-shape-divider-top-1719931178"
       id="about"
     >
-      <img src={imagenAbout} alt="Aboutimg" className="about-img" />
-
       <section className="about-section">
         <h1 className="about-title">
-           ABO<b>UT</b>
+          ABO<b>UT</b>
         </h1>
 
         <p className="about-text">
