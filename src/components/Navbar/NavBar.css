@@ -19,7 +19,7 @@
   justify-content: center;
   text-align: center;
   position: fixed;
-  border-radius: 30px;
+  border-radius: 10px;
   top: 20px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .nav-link-custom:hover {
-  color: #383434;
+  color: #fa5f34;
 }
 
 .container-custom-nav {
@@ -68,7 +68,7 @@
 }
 
 .navbar-close-btn:hover {
-  color: #383434;
+  color: #f1572c00;
 }
 
 @media only screen and (max-width: 1300px) {
