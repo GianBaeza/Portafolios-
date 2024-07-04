@@ -10,7 +10,7 @@ const Home = () => {
   };
 
   return (
-    <div id="/">
+    <div id="inicio">
       <section className="home-section">
         <div className="home-container">
           <h1>Gian Franco Baeza</h1>

@@ -1,0 +1,33 @@
+.redes {
+  background-color: rgba(223, 144, 40, 0);
+  margin: auto;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.redes ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  background-color: rgba(0, 255, 255, 0);
+  padding: 0;
+  width: 100%; /* Asegura que ul ocupe todo el ancho del contenedor .redes */
+  margin: 0;
+}
+
+.redes ul li {
+  background-color: rgba(3, 201, 46, 0);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.redes ul li a {
+  background-color: rgba(250, 235, 215, 0);
+  cursor: pointer;
+}
+
+.redes li img {
+  height: 30px;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}

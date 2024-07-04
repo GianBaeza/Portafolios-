@@ -27,7 +27,7 @@ const NavBar = () => {
           <Nav className="mx-auto nav">
             <Link
               className="nav-link-custom"
-              to="home"
+              to="inicio"
               spy={true}
               smooth={true}
               offset={-70}
@@ -38,7 +38,7 @@ const NavBar = () => {
             </Link>
             <Link
               className="nav-link-custom"
-              to="about"
+              to="sobre mi"
               spy={true}
               smooth={true}
               offset={-70}
@@ -60,7 +60,7 @@ const NavBar = () => {
             </Link>
             <Link
               className="nav-link-custom"
-              to="contact"
+              to="contacto"
               spy={true}
               smooth={true}
               offset={-70}
