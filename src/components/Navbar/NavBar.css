@@ -10,12 +10,17 @@
 }
 
 .nav {
-  background-color: #b8050500;
-  width: 100%;
+  background-color: #d9d9d94b;
+  width: 30%;
+  height: 60px;
+  align-items: center;
   display: flex;
   gap: 20px;
   justify-content: center;
   text-align: center;
+  position: fixed;
+  border-radius: 30px;
+  top: 20px;
 }
 
 .nav-link-custom {
@@ -66,45 +71,28 @@
   color: #383434;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 1300px) {
   .navbar-custom {
     width: 100%;
+    position: fixed;
   }
 
   .nav-toggler-custom {
-    position: fixed;
-    left: 40px;
-    top: 40px;
-  }
-
-  .nav-Collapse-custom {
     position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #ffff;
-    border-radius: 0px;
-    width: 200px;
-    height: 100vh;
-    padding: 10px;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    opacity: 1;
+    left: 10px;
+    top: 20px;
+    background-color: #ffffffa8;
   }
-
-  .container-custom-nav {
-    flex-direction: column;
-  }
-
-  .nav-link-custom {
-    padding: 15px;
-    font-size: 18px;
+  .nav {
+    width: 80%;
   }
 
   .navbar-close-btn {
-    display: block;
+    display: none;
   }
 }
-@media (max-width: 470px) {
+
+@media (max-width: 980px) {
   .navbar-custom {
     width: 100%;
     position: fixed;
@@ -133,16 +121,24 @@
 
   .container-custom-nav {
     flex-direction: column;
-   
   }
-  .nav{
-    margin-top: 60px;
+
+  .nav {
+    background-color: #05b81d00;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 60px;
+    border-radius: 0px;
+    align-items: none;
+    padding-bottom: 350px;
   }
+
   .nav-link-custom {
     padding: 10px;
     font-size: 18px;
-    background-color: #38343400;
-    
+    background-color: #7c020200;
   }
 
   .navbar-close-btn {
