@@ -10,7 +10,7 @@ function ListSkills({ name, img }) {
   return (
     <div className="container">
       <ul
-        className={`list-item ${
+        className={`list ${
           inView ? "animate__animated animate__fadeInRight" : ""
         }`}
       >

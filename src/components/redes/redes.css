@@ -25,6 +25,8 @@
 .redes ul li a {
   background-color: rgba(250, 235, 215, 0);
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .redes li img {

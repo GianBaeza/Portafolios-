@@ -90,6 +90,9 @@
   .navbar-close-btn {
     display: none;
   }
+  .navbar-close-btn:hover {
+    color: #f1572c00;
+  }
 }
 
 @media (max-width: 980px) {
@@ -144,7 +147,9 @@
   .navbar-close-btn {
     display: block;
   }
+  
   .navbar-close-btn:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #00000000;
+    color: #f1572c;
   }
 }

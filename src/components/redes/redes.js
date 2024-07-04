@@ -7,10 +7,10 @@ function RedesList({ redes }) {
       <div className="redes">
         <ul>
           {Object.entries(redes).map((red, index) => {
-            const { icon, name, url } = red[1];
+            const { icon, name, link } = red[1];
             return (
               <li key={index}>
-                <a href={url}>
+                <a href={link} target="blank">
                   <img src={icon} alt={name} />
                   {name}
                 </a>
