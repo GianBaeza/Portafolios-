@@ -1,0 +1,13 @@
+.container ul {
+  background-color: rgba(238, 88, 29, 0.781);
+  width: auto;
+  padding: 5px;
+  margin: auto;
+  border-radius: 20px;
+}
+.container ul li {
+  list-style: none;
+}
+.container li img {
+  height: 70px;
+}

@@ -1,10 +1,12 @@
 import { Card } from "../components/Cards/Card";
 import "./Css/Proyectos.css";
 import Data from "../trabajos/Trabajos";
+import ListSkills from "../components/skills/Skill";
+import { skillsData } from "../components/skills/skillData";
 
 const Proyectos = () => {
   return (
-    <div className="container-proyecto">
+    <div className="container-proyectosList">
       <header>
         <h1>
           {" "}
@@ -28,6 +30,15 @@ const Proyectos = () => {
           );
         })}
       </section>
+      <footer>
+        <h3 className="h3-footer"> Skills</h3>
+        <div className="container-listSkills">
+          {skillsData.map((skill) => {
+            const { name, img } = skill;
+            return <ListSkills img={img} key={name} />;
+          })}
+        </div>
+      </footer>
     </div>
   );
 };

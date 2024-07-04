@@ -54,6 +54,7 @@
   border: 2px solid #ffffff;
   border-radius: 10px;
   box-shadow: inset 0 0 0 0 #000000;
+  border: 1px solid black;
 }
 
 .home-container button:hover {
@@ -105,11 +106,9 @@
   );
 }
 
-
-
 @media only screen and (max-width: 1200px) {
   .home-section {
-    background-color: #11cf21;
+    background-color: #11cf2100;
     width: 100%;
     display: flex;
     padding-top: 0px;
@@ -121,7 +120,7 @@
   }
 
   .home-container {
-    background-color: rgba(83, 236, 12, 0.966);
+    background-color: rgba(83, 236, 12, 0);
     margin: auto;
     height: auto;
     width: 100%;

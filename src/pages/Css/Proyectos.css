@@ -1,59 +1,87 @@
-.container-proyecto {
-  height: 80%;
+.container-proyectosList {
   width: 100%;
+  height: auto;
   background-image: url(../../components//img/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(245, 245, 220, 0);
+  overflow: hidden;
 }
-header {
+
+.container-proyectosList header {
   padding: 50px;
   background-color: rgba(238, 130, 22, 0);
   width: 100%;
   text-align: center;
 }
-header h1 {
+
+.container-proyectosList header h1 {
   font-size: 70px;
   font-family: "Lexend Deca", sans-serif;
 }
 
-section {
-  background-color: rgba(0, 255, 255, 0);
+.container-proyectosList section {
+  background-color: rgba(72, 233, 72, 0);
   width: 80%;
   margin: auto;
   padding: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columnas por defecto */
+  grid-template-rows: 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
     ". . ."
-    ". . ."
     ". . .";
 }
+
+.container-proyectosList footer {
+  background-color: rgba(161, 9, 9, 0.815);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h3-footer {
+  color: rgb(194, 49, 5);
+  text-align: center;
+  padding: 20px;
+  font-size: 70px;
+}
+
+.container-listSkills {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: auto;
+}
+
 @media only screen and (max-width: 1200px) {
   header h1 {
     font-size: 60px;
   }
 
-  section {
+  .container-proyectosList section {
     background-color: rgba(0, 255, 255, 0);
     width: 100%;
     margin: auto;
     padding: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* 2 columnas en pantallas menores a 1200px */
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
-      ". . ."
-      ". . ."
-      ". . .";
+      ". ."
+      ". ."
+      ". .";
   }
 }
 
 @media only screen and (max-width: 768px) {
-  section {
-    grid-template-columns: 1fr 1fr;
+  .container-proyectosList section {
+    grid-template-columns: 1fr 1fr; /* 2 columnas en pantallas menores a 768px */
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       ". ."
@@ -66,13 +94,10 @@ section {
   header h1 {
     font-size: 60px;
   }
-  section {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  .container-proyectosList section {
+    grid-template-columns: 1fr; /* 1 columna en pantallas menores a 480px */
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "."
-      "."
-      "."
       "."
       "."
       ".";
