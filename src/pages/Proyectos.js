@@ -31,11 +31,15 @@ const Proyectos = () => {
         })}
       </section>
       <footer>
-        <h3 className="h3-footer"> Skills</h3>
+        <h3 className="h3-footer">
+          {" "}
+          Habi<b>lidades</b>
+        </h3>
+
         <div className="container-listSkills">
           {skillsData.map((skill) => {
             const { name, img } = skill;
-            return <ListSkills img={img} key={name} />;
+            return <ListSkills name={name} img={img} key={name} />;
           })}
         </div>
       </footer>
