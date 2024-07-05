@@ -5,7 +5,7 @@ import "./Css/Home.css";
 const Home = () => {
   const handleOpenPdf = () => {
     const curriculumUrl =
-      "https://drive.google.com/file/d/1AWGGmAqYuCZ1wcpntBD3v27FOaP6Up6l/view?usp=sharing";
+      "https://drive.google.com/file/d/1N0Br-kKHGYJ3IplSDLd5wJphdaib0RaX/view";
     window.open(curriculumUrl, "_blank");
   };
 
