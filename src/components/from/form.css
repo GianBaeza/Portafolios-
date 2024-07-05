@@ -56,10 +56,6 @@
   font-family: "Lexend Deca", sans-serif;
 }
 
-.form-content textarea::placeholder {
-  color: black;
-}
-
 .form-content button {
   background-color: #43525e;
   color: rgb(0, 0, 0);
