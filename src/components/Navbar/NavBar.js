@@ -45,7 +45,7 @@ const NavBar = () => {
               duration={500}
               onClick={handleNavClick}
             >
-              Sobre mi
+              Conóceme
             </Link>
             <Link
               className="nav-link-custom"

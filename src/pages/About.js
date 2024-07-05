@@ -9,7 +9,7 @@ const About = () => {
     >
       <section className="about-section">
         <h1 className="about-title">
-          ABO<b>UT</b>
+          Conó<b>ceme</b>
         </h1>
 
         <p className="about-text">
