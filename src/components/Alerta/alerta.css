@@ -1,0 +1,26 @@
+.custom-title {
+  color: #43525e;
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.custom-content {
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.custom-popup {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.swal2-popup.swal2-show {
+  opacity: 1;
+}

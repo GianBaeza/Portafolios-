@@ -92,6 +92,7 @@
   }
   .navbar-close-btn:hover {
     color: #f1572c00;
+    background-color: #00000017;
   }
 }
 
