@@ -24,7 +24,7 @@ const NavBar = () => {
           onClick={() => setIsNavExpanded(!isNavExpanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav" className="nav-Collapse-custom">
-          <Nav className="mx-auto nav" >
+          <Nav className="mx-auto nav">
             <Link
               className="nav-link-custom"
               to="inicio"
