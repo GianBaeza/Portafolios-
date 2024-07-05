@@ -148,8 +148,67 @@
   .navbar-close-btn {
     display: block;
   }
-  
+
   .navbar-close-btn:hover {
+    background-color: #00000000;
+    color: #f1572c;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-custom {
+    width: 100%;
+    position: fixed;
+  }
+
+  .nav-toggler-custom {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    background-color: #ffffffa8;
+  }
+
+  .nav-Collapse-custom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    border-radius: 0px;
+    width: 200px;
+    height: 100vh;
+    padding: 10px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+  }
+
+  .container-custom-nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    background-color: #05b81d00;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 60px;
+    border-radius: 0px;
+    align-items: none;
+    padding-bottom: 350px;
+  }
+
+  .nav-link-custom {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #7c020200;
+  }
+
+  .navbar-close-btn {
+    display: block;
+  }
+
+  .navbar-close-btn :active:hover {
     background-color: #00000000;
     color: #f1572c;
   }
