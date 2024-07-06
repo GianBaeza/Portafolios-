@@ -31,7 +31,7 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={50}
+              duration={250}
               onClick={handleNavClick}
             >
               Inicio
@@ -42,7 +42,7 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={50}
+              duration={250}
               onClick={handleNavClick}
             >
               Conóceme
@@ -53,7 +53,7 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={50}
+              duration={250}
               onClick={handleNavClick}
             >
               Proyectos
@@ -64,7 +64,7 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={50}
+              duration={250}
               onClick={handleNavClick}
             >
               Contacto
