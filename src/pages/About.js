@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       className="about-container custom-shape-divider-top-1719931178"
-      id="sobre mi"
+      id="conoceme"
     >
       <section className="about-section">
         <h1 className="about-title">

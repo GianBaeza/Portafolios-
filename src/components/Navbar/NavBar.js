@@ -38,7 +38,7 @@ const NavBar = () => {
             </Link>
             <Link
               className="nav-link-custom"
-              to="sobre mi"
+              to="conoceme"
               spy={true}
               smooth={true}
               offset={-70}
