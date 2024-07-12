@@ -213,3 +213,9 @@
     color: #f1572c;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .nav {
+    flex-direction: initial;
+  }
+}
