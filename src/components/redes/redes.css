@@ -1,5 +1,4 @@
 .redes {
-  background-color: rgba(223, 144, 40, 0);
   margin: auto;
   justify-content: flex-end;
   height: 100%;
@@ -16,20 +15,44 @@
 }
 
 .redes ul li {
-  background-color: rgba(3, 201, 46, 0);
   padding: 10px;
   display: flex;
-  align-items: center;
-  width: 100%;
 }
 .redes ul li a {
-  background-color: rgba(250, 235, 215, 0);
+  background-color: rgba(121, 76, 16, 0);
   cursor: pointer;
   text-decoration: none;
   color: black;
+  padding-left: 390px;
 }
 
 .redes li img {
   height: 30px;
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1080px) {
+  .redes {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+  }
+  .redes {
+    margin: auto;
+  }
+
+  .redes ul li a {
+    background-color: rgba(121, 76, 16, 0);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: auto;
+  }
+
+  .redes li img {
+    height: 30px;
+    margin-right: 10px;
+  }
 }

@@ -70,6 +70,7 @@ const NavBar = () => {
               Contacto
             </Link>
           </Nav>
+
           {/* Botón de cerrar */}
           <Button
             className="navbar-close-btn"

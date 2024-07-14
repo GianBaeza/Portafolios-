@@ -1,23 +1,53 @@
-.container-footer {
+.background-footer {
   background-image: url("../../components//img//2.png");
-  background-position: center;
-  background-repeat: repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
-  margin: auto;
-  background-color: rgba(4, 100, 1, 0);
-  padding: 20px;
-  margin-top: 20px;
-  border-bottom: 1px solid black;
-}
-.footerh4 {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.11);
+  filter: blur(0.6);
 }
 
-.footerh4 h4 {
+.container-footer {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(20, 199, 13, 0);
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.footerh4 {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+
+.footerh4 {
   margin: auto;
   color: #000000;
   text-align: center;
   font-size: 20px;
+}
+
+.container-footer h3 {
+  background-color: rgba(0, 255, 255, 0);
+  text-align: center;
+  font-size: 70px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1080px) {
+  .container-footer {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(20, 199, 13, 0);
+    padding: 0px;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+  }
+  .container-footer {
+    gap: 20px;
+  }
 }
