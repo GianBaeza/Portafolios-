@@ -6,11 +6,16 @@
 .App {
   text-align: center;
 }
-
-
-h2, b{
+h1,
+h2,
+h3,
+h4 {
   font-family: "Lexend Deca", sans-serif;
-  color: #FA5F34;
+}
+h2,
+b {
+  font-family: "Lexend Deca", sans-serif;
+  color: #fa5f34;
 }
 
 p,
@@ -20,4 +25,3 @@ a {
 button {
   font-family: "Lexend Deca", sans-serif;
 }
-
