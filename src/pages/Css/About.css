@@ -30,17 +30,17 @@
   background-color: #fff6e904;
   margin: auto;
 }
-b {
+strong {
   color: #fa5f34;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .about-title {
   font-size: 70px;
-  color: #a5a5a5;
+  color: #ffffffaf;
 }
 .about-text {
-  color: #c7c6c6;
+  color: #b8b5b5;
   font-size: 20px;
   padding: 40px;
   font-weight: 200;
