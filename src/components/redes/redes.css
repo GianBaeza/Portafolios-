@@ -23,7 +23,7 @@
   cursor: pointer;
   text-decoration: none;
   color: black;
-  padding-left: 390px;
+  text-align: end;
 }
 
 .redes li img {
@@ -40,6 +40,8 @@
   }
   .redes {
     margin: auto;
+    margin-bottom: 10px;
+    
   }
 
   .redes ul li a {
@@ -49,6 +51,7 @@
     color: black;
     padding: 0px;
     margin: auto;
+   
   }
 
   .redes li img {

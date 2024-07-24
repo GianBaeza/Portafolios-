@@ -178,9 +178,9 @@
 
   .h3-footer {
     background-color: rgba(0, 255, 255, 0);
-    margin-left: 30px;
     text-align: center;
     font-size: 60px;
+    margin: auto;
   }
   .container-listSkills {
     display: grid;
@@ -189,7 +189,10 @@
     grid-template-areas:
       ". . ."
       ". . .";
-    margin: auto;
+    margin: 0 auto;
     gap: 10px;
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0);
+    padding: 0px 5px;
   }
 }

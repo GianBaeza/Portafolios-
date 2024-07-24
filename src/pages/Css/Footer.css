@@ -9,7 +9,7 @@
 .container-footer {
   width: 80%;
   margin: auto;
-  background-color: rgba(20, 199, 13, 0);
+  background-color: rgba(19, 199, 13, 0);
   padding: 20px;
   margin-top: 20px;
   display: flex;
@@ -19,7 +19,7 @@
 
 .footerh4 {
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.034);
+  background-color: rgba(160, 24, 24, 0);
 }
 
 .footerh4 {
@@ -36,7 +36,7 @@
   margin: auto;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1080px) {
+@media only screen and (min-width: 300px) and (max-width: 1080px) {
   .container-footer {
     width: 80%;
     margin: auto;
@@ -50,4 +50,9 @@
   .container-footer {
     gap: 20px;
   }
+  .footerh4 {
+    width: 80%;
+    background-color: rgba(160, 24, 24, 0);
+  }
+
 }

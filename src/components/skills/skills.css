@@ -18,8 +18,34 @@
 .container p {
   color: #fff;
 }
-@media only screen and (min-width: 480px) and (max-width: 1080px) and (orientation: landscape) {
+@media only screen and (min-width: 200px) and (max-width: 1080px) and (orientation: landscape) {
   .container {
     padding: 10px;
+  }
+  .container ul {
+    background-color: #43525e;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .container ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .container li img {
+    height: 70px;
+  }
+  .container p {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 1080px) {
+  .container {
+    width: 100%;
+   
   }
 }
