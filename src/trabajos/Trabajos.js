@@ -24,7 +24,7 @@ const Data = [
     img: "https://i.postimg.cc/MTNPkmfz/771shots-so.png",
     titulo: "Gb Informatica",
     description:
-      "Gb, ofrecemos una amplia gama de productos informáticos para satisfacer todas tus necesidades tecnológicas. Desde ordenadores de última generación hasta accesorios de alta calidad, tenemos lo que buscas a precios que te encantarán.",
+      "(No tiene el mejor estilo, lo e puesto para que puedan observar la interactividad )",
     link1: "https://github.com/GianBaeza/E-commerce-Informarica/tree/main",
     link2: "https://gb-cj0ll25ae-chi4n.vercel.app/",
     tegnologia: ["React.js"],
