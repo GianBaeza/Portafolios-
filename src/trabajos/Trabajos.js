@@ -41,12 +41,12 @@ const Data = [
   },
   {
     id: "5",
-    img: "https://i.postimg.cc/x8Zs2yk0/347shots-so.png",
-    titulo: "Tareas Diarias",
+    img: "https://i.postimg.cc/ZRRVVZMR/464shots-so.png",
+    titulo: "Landing Page Cervecería",
     description:
-      "Gestor de Tareas Diarias es una aplicación web intuitiva diseñada para ayudarte a organizar y gestionar tus tareas diarias de manera eficiente.",
-    link1: "https://github.com/GianBaeza/Task-React-vite/tree/main",
-    link2: "https://mis-tareas-eta.vercel.app/",
+      " Se trata de una página web para una cervecería que está cerca de mi casa. Me pareció una excelente idea diseñarles una web para mejorar su presencia online y facilitar a los clientes la información sobre sus productos y servicios.",
+    link1: "https://github.com/GianBaeza/CestifniCerveza",
+    link2: "https://cestifini.vercel.app/",
     tegnologia: ["Vite + React.js"],
   },
   {
