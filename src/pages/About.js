@@ -13,17 +13,17 @@ const About = () => {
         </h1>
 
         <p className="about-text">
-          <strong>Mi interés en el aprendizaje y el desarrollo personal</strong>{" "}
-          me impulsa a explorar nuevas tecnologías y a seguir creciendo en el
-          ámbito de la programación.{" "}
-          <strong>Me destaco en el trabajo en equipo</strong>, siendo siempre{" "}
+          Me considero una persona{" "}
+          <strong>perseverante, organizada y exigente conmigo mismo</strong>. Mi
+          interés en el <strong>aprendizaje y el desarrollo personal</strong> me
+          impulsa a explorar nuevas tecnologías y a seguir creciendo en el
+          ámbito de la programación. Me destaco en el{" "}
+          <strong>trabajo en equipo</strong>, siendo siempre{" "}
           <strong>responsable y comprometido en cada proyecto</strong>. Creo
           firmemente que{" "}
-          <strong>el intercambio de ideas y la colaboración </strong>
-          son fundamentales para el éxito, y estoy siempre dispuesto a
-          <strong>aportar y aprender de mis compañeros</strong>. Soy un
-          profesional
-          <strong>dedicado</strong> y entusiasta.
+          <strong>el intercambio de ideas y la colaboración</strong> son
+          fundamentales para el éxito. Estoy siempre dispuesto a{" "}
+          <strong>aportar y aprender de mis compañeros</strong>.
         </p>
       </section>
     </div>
