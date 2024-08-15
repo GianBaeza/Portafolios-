@@ -1,13 +1,17 @@
 .about-container {
   display: flex;
-  width: 100%;
-  height: 50vh;
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
+  width: 80%;
+  margin: auto;
+  height: 100%;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  background-color: #011526bd;
+  background-color: #01152600;
   overflow: hidden;
-  padding: 15px;
+  background-image: url(../../components/img/Home/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px;
 }
 
 /* .about-img {
@@ -27,8 +31,9 @@
   text-align: center;
   gap: 10px;
   border: 1px solid black;
-  background-color: #fff6e904;
+  background-color: #42290500;
   margin: auto;
+  border-radius: 12px;
 }
 strong {
   color: #fa5f34;
@@ -37,10 +42,10 @@ strong {
 
 .about-title {
   font-size: 70px;
-  color: #ffffffaf;
+  color: #000000;
 }
 .about-text {
-  color: #b8b5b5;
+  color: #1b1b1b;
   font-size: 20px;
   padding: 40px;
   font-weight: 200;
@@ -51,10 +56,10 @@ strong {
     display: flex;
     width: 100%;
     height: 50vh;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background-color: #011526bd;
+    background-color: #01152600;
     overflow: hidden;
     padding: 15px;
   }
@@ -92,10 +97,10 @@ strong {
     display: flex;
     width: 100%;
     height: 50vh;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background-color: #011526bd;
+    background-color: #01152600;
     overflow: hidden;
     padding: 15px;
   }
@@ -116,11 +121,9 @@ strong {
 
   .about-title {
     font-size: 40px;
-    color: #a5a5a5;
     background-color: #c7c6c600;
   }
   .about-text {
-    color: #c7c6c6;
     font-size: 14px;
     padding: 5px;
     font-weight: 300;
@@ -130,8 +133,8 @@ strong {
 @media only screen and (max-width: 768px) {
   .about-container {
     display: flex;
-    width: 100%;
-    height: 50vh;
+    width: 80%;
+    height: 100%;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -171,11 +174,11 @@ strong {
   .about-container {
     display: flex;
     width: 100%;
-    height: auto;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
+    height: 100%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background-color: #011526bd;
+    background-color: #01152600;
     overflow: hidden;
     padding: 15px;
   }
@@ -196,18 +199,19 @@ strong {
 
   .about-title {
     font-size: 40px;
-    color: #a5a5a5;
+    color: #000000;
     background-color: #be151500;
   }
   .about-text {
     flex-wrap: wrap;
-    color: #c7c6c6;
     font-size: 14px;
     margin: auto;
     font-weight: 300;
     position: relative;
     bottom: 20px;
     overflow: hidden;
+    color: #000000c4;
+    padding: 10px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 1080px) and (orientation: landscape) {
@@ -216,10 +220,10 @@ strong {
     width: 80%;
     margin: auto;
     height: auto;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.808);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    background-color: #011526bd;
+    background-color: #01152600;
     overflow: hidden;
     padding: 15px;
   }
