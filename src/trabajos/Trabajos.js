@@ -7,7 +7,6 @@ const Data = [
       "Moda urbana para un estilo de vida dinámico. Encuentra prendas modernas y versátiles que se adaptan a tu ritmo. ¡Explora nuestra colección y redefine tu look!",
     link1: "https://github.com/GianBaeza/E-commerce",
     link2: "https://kofk-lbct6d6jg-chi4ns-projects.vercel.app/",
-    
   },
   {
     id: "2",
@@ -17,7 +16,6 @@ const Data = [
       "Moda urbana para un estilo de vida dinámico. Encuentra prendas modernas y versátiles que se adaptan a tu ritmo. ¡Explora nuestra colección y redefine tu look!",
     link1: "https://github.com/GianBaeza/BellPicturs",
     link2: "https://bellpicturs-j6psapce3-chi4ns-projects.vercel.app/",
-    
   },
   {
     id: "3",
@@ -27,7 +25,6 @@ const Data = [
       "(No tiene el mejor estilo, lo e puesto para que puedan observar la interactividad )",
     link1: "https://github.com/GianBaeza/E-commerce-Informarica/tree/main",
     link2: "https://gb-cj0ll25ae-chi4n.vercel.app/",
-    
   },
   {
     id: "4",
@@ -37,7 +34,6 @@ const Data = [
       "Este formulario de registro, desarrollado con HTML, CSS y JavaScript, está diseñado para ofrecer una experiencia de usuario fluida y efectiva.",
     link1: "https://github.com/GianBaeza/LoginPage/tree/main",
     link2: "https://form-validator-k6nemimw8-chi4n.vercel.app/",
-    
   },
   {
     id: "5",
@@ -47,17 +43,15 @@ const Data = [
       " Se trata de una página web para una cervecería que está cerca de mi casa. Me pareció una excelente idea diseñarles una web para mejorar su presencia online y facilitar a los clientes la información sobre sus productos y servicios.",
     link1: "https://github.com/GianBaeza/CestifniCerveza",
     link2: "https://cestifini.vercel.app/",
-    
   },
   {
     id: "6",
-    img: "https://i.postimg.cc/rsDJQ0f7/292shots-so.png",
-    titulo: "Weather App",
+    img: "https://i.postimg.cc/K83Nkvgy/499-2x-shots-so.png",
+    titulo: "InvenStock",
     description:
-      "Weather es una aplicación web intuitiva diseñada para proporcionarte la información más actualizada sobre el clima en cualquier ciudad o país del mundo.",
-    link1: "https://github.com/GianBaeza/Weather-app/tree/main",
-    link2: "https://wather-app-azure.vercel.app/",
-    
+      "InvenStock es una aplicación web intuitiva para la gestión de inventarios en tiempo real. Permite agregar, editar y eliminar productos, reflejando automáticamente estos cambios en la base de datos. Gracias a Firebase, todas las operaciones están sincronizadas en tiempo real. (Apta para todas las pantallas, excepto móviles).",
+    link1: "https://github.com/GianBaeza/InvenStock",
+    link2: "https://gestiondestock.vercel.app/",
   },
 ];
 
