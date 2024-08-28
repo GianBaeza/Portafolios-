@@ -49,7 +49,7 @@ const Data = [
     img: "https://i.postimg.cc/K83Nkvgy/499-2x-shots-so.png",
     titulo: "InvenStock",
     description:
-      "InvenStock es una aplicación web intuitiva para la gestión de inventarios en tiempo real. Permite agregar, editar y eliminar productos, reflejando automáticamente estos cambios en la base de datos. Gracias a Firebase, todas las operaciones están sincronizadas en tiempo real. (Apta para todas las pantallas, excepto móviles).",
+      "InvenStock es una aplicación web intuitiva para la gestión de inventarios en tiempo real. Permite agregar, editar y eliminar productos, reflejando automáticamente estos cambios en la base de datos. Gracias a Firebase, todas las operaciones están sincronizadas en tiempo real.Apta para todas las pantallas, excepto móviles.",
     link1: "https://github.com/GianBaeza/InvenStock",
     link2: "https://gestiondestock.vercel.app/",
   },
