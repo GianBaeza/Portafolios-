@@ -1,11 +1,11 @@
 import React from "react";
-import imagen from "../components/img/Home/Diseño sin título (1) (1).png"
+import imagen from "../components/img/Home/Diseño sin título (1) (1).png";
 import "./Css/Home.css";
 
 const Home = () => {
   const handleOpenPdf = () => {
     const curriculumUrl =
-      "https://drive.google.com/file/d/1DoA_JZPcIg5DHrDT9NhrhBnq0TjHuX-A/view?usp=sharing";
+      "https://drive.google.com/file/d/1hBo3QoRZmqv2dO4s0gRnfSWYc5dxauge/view?usp=sharing";
     window.open(curriculumUrl, "_blank");
   };
 
